@@ -12,6 +12,11 @@
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
 }
+.conteinar-one{
+    width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+}
 /* .........header section start......... */
 #header{
     background: #477018;
@@ -58,11 +63,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    transition: 2s all ease;
+    transition: 0.25s all ease;
 }
 .manu-list li a:hover{
     color: #477018;
-    transition: 1s all ease;
+    transition: 0.25s all ease;
+    font-weight: 600;
 }
 .right-icon{
     display: flex;
@@ -88,4 +94,56 @@
     color: #FFF;
 }
 
-/* new section start */
+/* ..........banner section start.......... */
+.banner-img{
+    background-image: url(../image/banner-img.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 700px;
+}
+.main-banner{
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.banner-dteils-h1{
+    width: 550px;
+    height: 273px;
+}
+.banner-dteils-h1 h1{
+    color: #282828;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-span{
+    color: #F47606;
+}
+.banner-dtails-p{
+    width: 402px;
+    height: 56px;
+}
+.banner-dtails-p p{
+    color: #676767;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.btn{
+    padding: 14px 50px;
+    border: none;
+    border-radius: 10px;
+    background: #477018;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    
+}
