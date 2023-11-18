@@ -1,0 +1,91 @@
+/* Bismillahir Rahmanir Raheem */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteinar{
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+/* .........header section start......... */
+#header{
+    background: #477018;
+    height:50px;
+}
+.header-dtails{
+    padding:15px 0;
+}
+.header-dtails p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* manu bar Start */
+.manu-dtails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 41px 0;
+    
+}
+
+
+.manu-center{
+    width: 659px;
+    height: 19px;
+}
+.manu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu-list li{
+    list-style: none;
+}
+.manu-list li a{
+    text-decoration: none;
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 2s all ease;
+}
+.manu-list li a:hover{
+    color: #477018;
+    transition: 1s all ease;
+}
+.right-icon{
+    display: flex;
+    gap: 20px;
+}
+.right-icon i{
+    font-size:18px;
+}
+.icon-possition{
+    position: relative;
+}
+.r-i{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #F47606;
+    border-radius:50%;
+    background-color: #F47606;
+    position: absolute;
+    top: 0;
+    left:8px;
+}
+.r-i h6{
+    color: #FFF;
+}
+
+/* new section start */
