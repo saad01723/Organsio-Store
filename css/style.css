@@ -93,7 +93,9 @@
 .r-i h6{
     color: #FFF;
 }
-
+.icon-magnifying i{
+    color: #477018;
+}
 /* ..........banner section start.......... */
 .banner-img{
     background-image: url(../image/banner-img.png);
